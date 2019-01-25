@@ -5,6 +5,7 @@ package edu.gatech.oad.antlab.person;
  *  reversed string 
  *  
  *  @author  Bob
+
  *  @version 1.1
  */
 public class Person3 {
@@ -43,6 +44,21 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 	  //Person 3 put your implementation here
-	  return null;
+	    String reverse = "";
+	    for (int i = input.length(); i >= 0; i--) {
+		if (i == input.length()) {
+		    reverse += input.substring(i);
+		} else {
+		    reverse += input.substring(i,i+1);
+		}
+						  
+	    }
+	  return reverse;
 	}
+	
+
+
+    
 }
+
+
