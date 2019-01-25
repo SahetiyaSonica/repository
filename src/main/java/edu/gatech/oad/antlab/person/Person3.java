@@ -55,12 +55,7 @@ public class Person3 {
 	    }
 	  return reverse;
 	}
-
-    public static void main (String[] args) {
-        Person3 person = new Person3("marie");
-        person.toString("marie");
-
-    }
+	
 
 
     
