@@ -31,11 +31,11 @@ public class Person5 {
 	 */
 	private String calc(String input) {
 	  //Person 5 put your implementation here
-	  String newStr = "";
+	  String Str = "";
 	  for (int i = 0; i < input.length(); i++) {
-	  	newStr[(i + 2) % input.length()] = input[i];
+	  	Str[(i + 2) % input.length()] = input[i];
 	  }
-	  return newStr;
+	  return Str;
 	}
 
 	/**
